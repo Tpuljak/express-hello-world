@@ -1,0 +1,9 @@
+{
+    "name": "Express Hello World",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "remoteUser": "root",
+    "postCreateCommand": "yarn install",
+    "forwardPorts": [3000]
+  }
